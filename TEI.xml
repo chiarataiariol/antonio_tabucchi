@@ -1,0 +1,62 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader> <!-- (Da https://tei-c.org/release/doc/tei-p5-doc/it/html/HD.html.) La TEI header contiene FILE DESC, ENCODING DESC e PROFILE DESC-->
+   <fileDesc>
+      <!--contiene una descrizione bibliografica completa di un file elettronico.-->
+      <titleStmt>  <!-- PRIMA COMPONENTE FILE DESC: raggruppa le informazioni sul titolo di un'opera e sulle responsabilità del suo contenuto intellettuale-->
+         <title>La gastrite di Platone</title> 
+         <author>Antonio Tabucchi</author>
+         <respStmt><!--raggruppa le informazioni sul titolo di un'opera e sulle responsabilità del suo contenuto intellettuale-->
+            <name xml:id="CP">Chiara Pizzulli</name>
+            <name xml:id="CT">Chiara Taiariol</name>
+            <resp>conversion to TEI-conformant markup</resp>
+         </respStmt>
+      </titleStmt>
+      
+      <editionStmt><!--SECONDA COMPONENTE DEL FILE DESC: raggruppa le informazioni riguardo una edizione di un testo-->
+         <edition>Digital edition<date>September 2022</date></edition>
+      </editionStmt>
+  
+      <extent><!--TERZA COMPONENTE DEL FILE DESC-->
+         <measure unit="characters" quantity="35083">35083</measure>
+      </extent>  
+
+      <publicationStmt> <!--QUARTA COMPONENTE DEL FILE DESC: raggruppa le informazioni riguardo la pubblicazione o la distribuzione di un documento elettronico o di altra natua.-->
+         <p>Alma Mater Studiorum- Università di Bologna, corso di Digital Humanities e Patrimonio Culturale (1) (LM) 2021/2022 </p> 
+      </publicationStmt> 
+
+      <sourceDesc> <!--SETTIMA COMPONENTE DEL FILE DESC: descrizione fonte item-->
+         <biblStruct>
+            <author>Antonio Tabucchi</author>
+            <title>La gastrite di Platone</title>
+            <extent>
+               <measure unit="pages" quantity="104">104</measure>
+            </extent>  
+            <publisher>Sellerio editore</publisher> 
+            <pubPlace>Palermo</pubPlace>
+            <date>1998</date>
+            <idno type="ISBN">88-389-1421-4</idno>
+         </biblStruct> 
+      </sourceDesc>      
+   </fileDesc>
+
+
+   <encondingDesc> <!--documenta la relazione fra un documento elettronico e la o le fonti da cui è derivato.-->
+  	   <projectDesc>
+		 <p>Nel TEI text l'utente può fruire in formato digitale del  prologo del pamphlet <em>La gastrite di Platone </em>. L'implemantazione del progetto porterebbe alla trascrizione e codifica di tutta l'opera.</p>
+  	   </projectDesc>
+   </encondingDesc>
+
+   <profileDesc><!--fornisce una descrizione dettagliata degli aspetti non bibliografici di un testo, in modo particolare le lingue e i linguaggi secondari utilizzati, la situazione in cui è stato prodotto il testo, i partecipanti e la relativa ambientazione-->
+      <langUsage>Italiano</langUsage>
+   </profileDesc>
+</teiHeader>
+
+<text>
+	<front>
+		<titlePage>Prologo</titlePage>
+	</front>
+	<body>
+		<p n="1" xml:lang="it">Questo libriccino di tema assai italiano rimbalza paradossalmente in Italia dalla Francia; e dell'interesse degli amici francesi è debitore dopo un'andata e ritorno nel Paese transalpino. Senza l'intraprendenza di Bernard Comment, che ne ha architettato la struttura, provvedendo anche alla sua costruzione, esso non esisterebbe come volume a sé stante, sussistendo come breve saggio (meglio, «intervento») pubblicato su «Micromega» del maggio 1997 col titolo <em>Un fiammifero Minerva</em> e che traeva spunto da una «Bustina di Minerva» di Umberto Eco («L'Espresso», 24 aprile 1997) intitolata <em>Il primo dovere degli intellettuali:stare zitti quando non servono a niente</em>. Mi parve che in tale scritto Umberto Eco, affidando all'intellettuale esclusivamente la gestione della cultura (direi quasi dei beni culturali) e fondandosi su due imperiose asserzioni (la prima, che quando la casa va a fuoco l'unica cosa sensata che l'intellettuale possa fare è chiamare i pompieri; la seconda, che sia vana fare opera di convincimento su sindaci impermeabili a maniere di civile educazione e dunque più utile per l'intellettuale scrivere dei manuali ad uso dei nipotini di tali sindaci affinché non crescano con la mentalità dei nonni), tracciasse dell'intellettuale un profilo eccessivamente malinconico (o magari inconsapevolmente cinico). Il mio intervento su «Micromega» non era teso a «riabilitare» la controversa figura dell'intellettuale (che non si sa se appartenga alla vil razza dannata o piuttosto alla specie dell'araba fenice) quanto eventualmente la sua sporadica «funzione» all’interno del consorzio umano attuale, soprattutto in Italia. E nel far ciò mi sembrò opportuno, se non indispensabile, ricorrere a un esemplare della specie intellettuale che Eco curiosamente nel suo testo trascurava: lo scrittore e/o il poeta. La «dimenticanza» di Eco mi parve degna di riflessione, non tanto a causa di Eco, che è anche scrittore, quanto perché attrasse la mia attenzione sul tipo di «ruolo» che lo scrittore e il poeta abbiano potuto ricoprire nell’Italia del dopoguerra (tralasciando quella monarchica e fascista). Ruolo che considerai essere stato di scarso prestigio, anzi, che mi levò alla conclusione che tale esemplare zoologico quando non tenuto in gran dispitto dal Palazzo (pasolinianamente inteso) era sempre stato considerato con una certa sufficienza dalle istituzioni intellettuali e culturali ad esso correlate (accademie, scuole critiche, ecc.) e da esse sempre trattato con condiscendente superiorità perchè considerato creatura bizzarra, magari pittoresca, ma comunque della quale si poteva del tutto fare a meno (il famoso «a prescindere» di Totò). Del resto una mentalità corrente derivante in parte da Pareyson e in parte da certa ermeneutica novecentesca, fondata sull’umile precetto che l’ermeneutica «ne sa di più dell’autore stesso» (Schleiermacher) non può che arrivare al sillogismo pratico che il commentatore può anche fare a meno del commentato: il che ricorda i Grammatici di cervantina memoria che non avevano bisogno della lingua. E i risultati si sono visti <sup>1</sup>.</p><p n="2">La prima asserzione di Eco, basata sulla metafora pompieristica (e politicamente assai corretta: chi non chiamerebbe i pompieri quando gli va a fuoco la casa?) mi parve, per così dire, insufficiente: ove si consideri la solerzia che il benemerito Corpo ha dimostrato laddove le italiane sciagure lo chiamavano. (E i cittadini ricorderanno l’efficienza dei nostri vigili del fuoco intenti a intervenire alla stazione di Bologna dopo la bomba dell’agosto del 1980. Solo che non è compito del capitano dei pompieri, poveruomo, individuare chi collocò l’ordigno che dell’incendio e delle macerie - e soprattutto dei morti - fu causa: ed è questo che ai cittadini, oltre che all’intellettuale, piacerebbe sapere).</p><p n="3">La seconda asserzione e cioè il compito attribuito all’intellettuale destinato a paziente educatore dei nipotini del sindaco maleducato, mi parve tema di riflessione adatto a un intellettuale come Adriano Sofri.</p> <p n="4">Chi meglio di lui poteva disporre in prospettiva di una ventina d’anni di “tempo libero” per scrivere un manuale utile alla formazione spirituale dei nipotini del suo accusatore? </p><p n="5">Fu così che decisi di indirizzare la mia riflessione su «Micromega» ad Adriano Sofri, sotto forma di lettera aperta. Ciò mi parve anche una maniera, magari disarmata, di invitare l’intellighenzia italiana a una dialettica partitella non solo intorno ad astratte teorie ma soprattutto intorno a un fenomeno di natura empirica la cui abnormità mi parve (e mi pare) assai inquietante (dico la condanna di Sofri, Bompressi e Pietrostefani). Ma probabilmente a causa del mio ottimismo, che non avevo preso in considerazione il pensionamento nel quale sono stati collocati il termine «dialettica» e il filosofo che più ne fece uso, al di là di qualche palleggio con il destinatario della lettera (il cortile del carcere non ha evidentemente le stesse caratteristiche del terreno di Wimbledon, né il suo muro quelle della rete divisoria del tennis) mi ritrovai a giocare una partita simile e quella che si vede nel <em>Blow up</em> di Antonioni, e delle mie antitesi opposte alla tesi di Eco risultò una sintesi assai frugale dove all’appetito seguì praticamente un digiuno quaresimale. Di questo magro, direi platonico banchetto (mai l’aggettivo mi parve più appropriato) ove i succhi gastrici profusi appaiono sproporzionati in modo ridicolo l'esiguità delle pietanze da digerire che il convento oggi passa a tutti noi, questa piccola e inevitabile <em>Gastrite</em> vuole rendere testimonianza. </p>
+	</body>
+</text>
+</TEI>

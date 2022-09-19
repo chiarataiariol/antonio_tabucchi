@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:si="file:///C:/Users/chiar/OneDrive/Desktop/gastritediPlatone.html/rdf/">
+<rdf:Description rdf:about="file:///C:/Users/chiar/OneDrive/Desktop/gastritediPlatone.html">
+	<si:title>La gastrite di Platone</si:title>
+	<si:author>Chiara Pizzulli, Chiara Taiariol</si:author>
+</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,19 @@
+<edizione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="ISBN">
+    <item xml:id="ISBN-88-389-1421-4">
+    <titolo-item>La gastrite di Platone</titolo-item>
+        <metadati>
+             <dc:identifier type="ISBN">88-389-1421-4</dc:identifier>
+             <dc:title>La gastrite di Platone</dc:title>
+             <dc:date>1998</dc:date>
+             <dc:creator>Antonio Tabucchi</dc:creator>
+             <dc:type>Work</dc:type>
+             <dc:properties></dc:properties>
+             <dc:subject>Sofri, Adriano, Intellectuals, Social ethics</dc:subject>
+             <dc:description>La gastrite di Platone è il titolo paradossale, scelto per l'edizione francese e qui mantenuto, di un libro nato come iniziale riflessione intorno ad un articolo di Umberto Eco basato sul concetto che l'unica cosa che l'intellettuale possa fare quando la casa brucia è telefonare ai pompieri. Insoddisfatto del ruolo del telefonista diligente, anzi, introducendo nel club rigidamente istituzionalizzato degli «intellettuali» la figura dello scrittore concepito come intellettuale «sporadico» e «clandestino», Tabucchi scalza causticamente una stereotipata icona che si vuole sacerdotale o manageriale, magari tollerabilmente querula, ma comunque sempre domestica ed esornativa, reclamando il diritto (e il dovere) dello scrittore di indagare con la sua scrittura sul «non dato da conoscere». E chiamando Sofri come interlocutore, e dunque scegliendo esplicitamente il «Caso Sofri» come nodo di una realtà che si vorrebbe formalmente «chiara», ma che sostanzialmente risulta oscura e inquietante, Tabucchi propone un discorso che è insieme un'urgente interrogazione e un allarme. Che, partiti dall'Italia, e dopo essere stati accolti dalla Francia, a noi rimbalzano.</dc:description>
+             <dc:publisher>Sellerio</dc:publisher>
+             <dc:format>Novel</dc:format>
+             <dc:language>Italian</dc:language>
+             <dc:rightsManagement>Copyright 2022</dc:rightsManagement>
+         </metadati>
+        </item>
+    </edizione>

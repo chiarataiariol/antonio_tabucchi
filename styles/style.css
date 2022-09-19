@@ -1,0 +1,135 @@
+.bg-image {
+background-color: rgb(244, 245, 244);
+height: 100vh;
+}
+
+.btn-warning a{
+color: white; 
+text-decoration: none;
+}
+
+.btn-dark a{
+color: white; 
+text-decoration: none;
+}
+
+#indiceopere {
+margin-top: 60%; 
+left:113px;
+}	
+
+.card {
+width: 22rem;
+position: center;
+text-align: justify;
+margin-top: 1%;
+font-family: sans-serif;
+font-size: 13px;
+margin-bottom: 4%;
+}
+
+#img-home {
+width: 22rem;
+height: 19rem;
+}
+
+
+#progetto {
+text-align: justify;
+position: center;
+font-family: sans-serif;
+font-size: 16px;
+}
+
+.fa-facebook {
+padding: 10px; 
+font-size: 30px; 
+width: 70px; 
+text-align: center; 
+text-decoration: none;  
+color: rgb(255, 191, 71);
+}
+
+.fa-twitter {
+padding: 10px; 
+font-size: 30px; 
+width: 70px; 
+text-align: center; 
+text-decoration: none;  
+color: rgb(255, 191, 71);
+}
+
+.fa-instagram {
+padding: 10px; 
+font-size: 30px; 
+width: 70px; 
+text-align: center; 
+text-decoration: none;  
+color: rgb(255, 191, 71);
+}
+.p-3 {
+background-color: rgba(0, 0, 0, 0.2);
+}	
+
+.dropdown-menu {
+height: 400px; 
+overflow-y: scroll;
+}
+
+#cards {
+width: 18rem; 
+height: 23.5rem;
+}	
+
+.card-img-top{
+width: 17.9rem; 
+height: 14rem;
+}	
+
+#gastrite {
+margin-top: 15%;
+width: 93%; 
+height: 20% 
+} 
+.index-block, .keywords-block, .bottone{
+margin-top: 5%;
+width: 92%;
+font-size: Serif;
+font-size: 12px;
+}
+.index-block a, .keywords-block a{
+color: inherit; /* blue colors for links too */
+text-decoration: inherit; /* no underline */
+}
+
+.index-block a:hover { 
+color: black;
+background-color: rgb(255, 165, 0);
+}
+    
+.bottone {
+background-color: black;
+height: 3%;
+color: white;
+}
+.bottone a:link  {
+text-decoration: none;
+}
+.metadati {
+color: white;
+}
+.btn-group-vertical{
+position: fixed; 
+top: 100px; 
+width: 150px;
+}	
+#platone {
+width: 150px; 
+height: 150px;
+}	
+
+#iframe {
+width: 750px; 
+height: 400px;
+}
+

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<!-- head -->
+
+<head>
+<!-- charset -->
+<meta charset="utf-8">
+<!-- viewport -->
+<!-- metadati -->
+<META NAME="DC.Title" CONTENT="Antonio Tabucchi">
+<META NAME="DC.Creator.PersonalName" CONTENT="Pizzulli, Chiara; Taiariol,Chiara">
+<META NAME="DC.Creator.PersonalName.Address" CONTENT="chiarapizzulli@studio.unibo.it chiara.taiariol@studio.unibo.it">
+<META NAME="DC.Subject" CONTENT="sito dedicato all'autore e edizione digitale">
+<META NAME="DC.Description" CONTENT="sito web dedicato ad Antonio Tabucchi e edizione digitale delle opere dell'autore ad egli dedicate">
+<META NAME="DC.Date" CONTENT="2022">
+<META NAME="DC.Type" CONTENT="Text"> 
+<META NAME="DC.Format" CONTENT="html, css, xml="> 
+<META NAME="DC.Identifier" CONTENT="http://"> <!--INSERIRE POI INDIRIZZO GITHUB-->
+<META NAME="DC.Language" CONTENT="it,pt">
+<META NAME="DC.Dte.X-MetadataLastModified" CONTENT="16 september 2022">
+  
+<!--css-->
+<link rel="stylesheet" href="styles/style.css">
+<!--bootstrap.css-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<!--body-->
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.png" alt="logo" width="50" height="50">
+    </a>
+    <!--navbar-dark shadow-5-strong-->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Antonio Tabucchi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active" aria-current="page" href="#">Sull'autore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="opere.html">Opere</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Galleria fotografica</a>
+            </li>
+            <!-- navbar contatti dd-->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contatti</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-dark" type="button"><a href="index-pg.html">Português</a></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+<!--togliere BR-->  
+</br>
+</br>
+<!--togliere BR-->  
+
+<!--container-->
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <!--buttons indice e metadati-->
+      <div class="col-lg-3 col-md-4 col-sm-2">
+        <img src="images/galloplatonico.jpg" class= "img-fluid" alt="LaGastritediPlatone" id="gastrite">
+        <button class="bottone"  type="button" class="btn btn-dark"> <a class="Metadati" href="metadati.gastrite.html">
+         <h6 class="metadati">Metadati</h6>
+        </button></a>
+    
+        <div class="index-block">
+          <div class="index-list">
+            <h6>Indice</h6>
+              <ul class="list-group list-group">
+                <li class="list-group-item list-group-item-light"><a class="dropdown-item" href="#8">Frontespizio</a></li>
+                <li class="list-group-item list-group-item-light"><a class="dropdown-item" href="#9">Prologo</a></li>
+                <li class="list-group-item list-group-item-light"><a class="dropdown-item" href="#10">1.Un fiammifero di Minerva</a></li>
+                <li class="list-group-item list-group-item-light"><a class="dropdown-item" href="#11">2.Conversazione a Lisbona</a></li>
+                <li class="list-group-item list-group-item-light"><a class="dropdown-item" href="#12">3.Finchè durano i fiammiferi</a></li>
+                <li class="list-group-item list-group-item-light"><a class="dropdown-item" href="#13">Due lettere dal carcere di Adriano Sofri</a></li>
+                <li class="list-group-item list-group-item-light"><a class="dropdown-item" href="#14">Epilogo provvisorio</a></li>
+                <li class="list-group-item list-group-item-light"><a class="dropdown-item" href="#15">Nota editoriale</a></li>
+              </ul>
+          </div>
+        </div>
+        
+        <div class="keywords-block">
+          <p> <a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Parole chiave</a></p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <a onclick="highlightKeyword(this)" class="Bernard Comment">Bernard Comment</a>
+              <a target="_blank" href="https://en.wikipedia.org/wiki/Bernard_Comment">(Wikipedia)</a> 
+              
+              <a onclick="highlightKeyword(this)" class="Micromega">Micromega</a>
+              <a target="_blank" href="https://it.wikipedia.org/wiki/MicroMega_(periodico)">(Wikipedia)</a> 
+              <a onclick="highlightKeyword(this)" class="Micromega">Bustina di Minerva</a>  
+              <a target="_blank" href="https://it.wikipedia.org/wiki/La_bustina_di_minerva">(Wikipedia)</a>
+              <a onclick="highlightKeyword(this)" class="Umberto Eco">Umberto Eco</a>
+              <a target="_blank" href="https://it.wikipedia.org/wiki/Umberto_Eco">(Wikipedia)</a>
+              <a onclick="highlightKeyword(this)" class="L'Espresso">L'Espresso</a>
+              <a target="_blank" href="https://it.wikipedia.org/wiki/L%27Espresso">(Wikipedia)</a>
+              <a onclick="highlightKeyword(this)" class="Luigi Pareyson">Luigi Pareyson</a>
+              <a target="_blank" href="https://it.wikipedia.org/wiki/Luigi_Pareyson">(Wikipedia)</a>
+              <a onclick="highlightKeyword(this)" class="Totò">Totò</a>
+              <a target="_blank" href="https://it.wikipedia.org/wiki/Tot%C3%B2">(Wikipedia)</a>
+               <a onclick="highlightKeyword(this)" class="Friedrich Schleiermacher">Friedrich Schleiermacher</a>
+              <a target="_blank" href="https://it.wikipedia.org/wiki/Friedrich_Schleiermacher">(Wikipedia)</a>
+              <a onclick="highlightKeyword(this)" class="La strage di Bologna">La strage di Bologna</a>
+              <a target="_blank" href="https://it.wikipedia.org/wiki/Strage_di_Bologna">(Wikipedia)</a>
+              <a onclick="highlightKeyword(this)" class="Adriano Sofri">Adriano Sofri</a>
+              <a target="_blank" href="https://it.wikipedia.org/wiki/Adriano_Sofri">(Wikipedia)</a>
+              <a onclick="highlightKeyword(this)" class="Ovidio Bompressi">Ovidio Bompressi</a>
+              <a target="_blank" href="https://it.wikipedia.org/wiki/Ovidio_Bompressi">(Wikipedia)</a>
+              <a onclick="highlightKeyword(this)" class="Giorgio Pietrostefani">Giorgio Pietrostefani</a>
+              <a target="_blank" href="h https://it.wikipedia.org/wiki/Giorgio_Pietrostefani">(Wikipedia)</a>
+              <a onclick="highlightKeyword(this)" class="Wimbledon"> Wimbledon </a>
+              <a target="_blank" href="https://it.wikipedia.org/wiki/Torneo_di_Wimbledon">(Wikipedia)</a>
+              <a onclick="highlightKeyword(this)" class="Blow up"> Blow up </a>
+              <a target="_blank" href="https://it.wikipedia.org/wiki/Blow-Up">(Wikipedia)</a>
+              <a onclick="highlightKeyword(this)" class="Michelangelo Antonioni"> Michelangelo Antonioni </a>
+              <a target="_blank" href="https://it.wikipedia.org/wiki/Michelangelo_Antonioni">(Wikipedia)</a>
+            </div>
+        </div>
+    </div>
+  </div>
+     
+    <!--text-->
+      <div class="col-lg-9 col-md-8 col-sm-10">
+        <!--togliere BR-->  
+        </br>
+        </br>
+        <!--togliere BR-->  
+        <h3 id="8">Frontespizio</h3>
+        <hr>
+        <br>
+        <h3 id="9">Prologo</h3>
+        <h4>Ove si giustifica questa gastrite</h4>
+        <br>
+        <p align="justify">Questo libriccino di tema assai italiano rimbalza paradossalmente in Italia dalla Francia; e dell'interesse degli amici francesi è debitore dopo un'andata e ritorno nel Paese transalpino. Senza l'intraprendenza di <span class="Bernard Comment">Bernard Comment</span>, che ne ha architettato la struttura, provvedendo anche alla sua costruzione, esso non esisterebbe come volume a sé stante, sussistendo come breve saggio (meglio, «intervento») pubblicato su <span class="Micromega">«Micromega»</span> del maggio 1997 col titolo <em>Un fiammifero Minerva</em> e che traeva spunto da una <span class="Bustina di Minerva">«Bustina di Minerva»</span> di <span class="Umberto Eco">Umberto Eco</span> «(<span class="L'Espresso">L'Espresso</span>», 24 aprile 1997) intitolata <em>Il primo dovere degli intellettuali:stare zitti quando non servono a niente</em>. Mi parve che in tale scritto Umberto Eco, affidando all'intellettuale esclusivamente la gestione della cultura (direi quasi dei beni culturali) e fondandosi su due imperiose asserzioni (la prima, che quando la casa va a fuoco l'unica cosa sensata che l'intellettuale possa fare è chiamare i pompieri; la seconda, che sia vana fare opera di convincimento su sindaci impermeabili a maniere di civile educazione e dunque più utile per l'intellettuale scrivere dei manuali ad uso dei nipotini di tali sindaci affinché non crescano con la mentalità dei nonni), tracciasse dell'intellettuale un profilo eccessivamente malinconico (o magari inconsapevolmente cinico). Il mio intervento su «Micromega» non era teso a «riabilitare» la controversa figura dell'intellettuale (che non si sa se appartenga alla vil razza dannata o piuttosto alla specie dell'araba fenice) quanto eventualmente la sua sporadica «funzione» all’interno del consorzio umano attuale, soprattutto in Italia. E nel far ciò mi sembrò opportuno, se non indispensabile, ricorrere a un esemplare della specie intellettuale che Eco curiosamente nel suo testo trascurava: lo scrittore e/o il poeta. La «dimenticanza» di Eco mi parve degna di riflessione, non tanto a causa di Eco, che è anche scrittore, quanto perché attrasse la mia attenzione sul tipo di «ruolo» che lo scrittore e il poeta abbiano potuto ricoprire nell’Italia del dopoguerra (tralasciando quella monarchica e fascista). Ruolo che considerai essere stato di scarso prestigio, anzi, che mi levò alla conclusione che tale esemplare zoologico quando non tenuto in gran dispitto dal Palazzo (pasolinianamente inteso) era sempre stato considerato con una certa sufficienza dalle istituzioni intellettuali e culturali ad esso correlate (accademie, scuole critiche, ecc.) e da esse sempre trattato con condiscendente superiorità perchè considerato creatura bizzarra, magari pittoresca, ma comunque della quale si poteva del tutto fare a meno (il famoso «a prescindere» di <span class="Totò">Totò</span>). Del resto una mentalità corrente derivante in parte da <span class="Luigi Pareyson">Pareyson</span> e in parte da certa ermeneutica novecentesca, fondata sull’umile precetto che l’ermeneutica «ne sa di più dell’autore stesso» (<span class="Friedrich Schleiermacher">Schleiermacher</span>) non può che arrivare al sillogismo pratico che il commentatore può anche fare a meno del commentato: il che ricorda i Grammatici di cervantina memoria che non avevano bisogno della lingua. E i risultati si sono visti <sup>1</sup>.</br>
+        La prima asserzione di Eco, basata sulla metafora pompieristica (e politicamente assai corretta: chi non chiamerebbe i pompieri quando gli va a fuoco la casa?) mi parve, per così dire, insufficiente: ove si consideri la solerzia che il benemerito Corpo ha dimostrato laddove le italiane sciagure lo chiamavano. (E i cittadini ricorderanno l’efficienza dei nostri vigili del fuoco intenti a intervenire alla stazione di Bologna dopo <span class="La strage di Bologna">la bomba dell’agosto del 1980</span>. Solo che non è compito del capitano dei pompieri, poveruomo, individuare chi collocò l’ordigno che dell’incendio e delle macerie - e soprattutto dei morti - fu causa: ed è questo che ai cittadini, oltre che all’intellettuale, piacerebbe sapere).</br>
+        La seconda asserzione e cioè il compito attribuito all’intellettuale destinato a paziente educatore dei nipotini del sindaco maleducato, mi parve tema di riflessione adatto a un intellettuale come <span class="Adriano Sofri">Adriano Sofri</span>.</br> 
+        Chi meglio di lui poteva disporre in prospettiva di una ventina d’anni di “tempo libero” per scrivere un manuale utile alla formazione spirituale dei nipotini del suo accusatore? </br>
+        Fu così che decisi di indirizzare la mia riflessione su «Micromega» ad Adriano Sofri, sotto forma di lettera aperta. Ciò mi parve anche una maniera, magari disarmata, di invitare l’intellighenzia italiana a una dialettica partitella non solo intorno ad astratte teorie ma soprattutto intorno a un fenomeno di natura empirica la cui abnormità mi parve (e mi pare) assai inquietante (dico la condanna di Sofri, <span class="Giorgio Bompressi">Bompressi</span> e <spam class="Giorgio Pietrostefani">Pietrostefani</spam>). Ma probabilmente a causa del mio ottimismo, che non avevo preso in considerazione il pensionamento nel quale sono stati collocati il termine «dialettica» e il filosofo che più ne fece uso, al di là di qualche palleggio con il destinatario della lettera (il cortile del carcere non ha evidentemente le stesse caratteristiche del terreno di <span class="Wimbledon">Wimbledon</span>, né il suo muro quelle della rete divisoria del tennis) mi ritrovai a giocare una partita simile e quella che si vede nel <span class="Blow up"> <em>Blow up</em></span> di <span class="Michelangelo Antonioni">Antonioni</span>, e delle mie antitesi opposte alla tesi di Eco risultò una sintesi assai frugale dove all’appetito seguì praticamente un digiuno quaresimale. Di questo magro, direi platonico banchetto (mai l’aggettivo mi parve più appropriato) ove i succhi gastrici profusi appaiono sproporzionati in modo ridicolo l'esiguità delle pietanze da digerire che il convento oggi passa a tutti noi, questa piccola e inevitabile <em>Gastrite</em> vuole rendere testimonianza. </p>
+        <hr>
+        <br>
+        <h3 id="10"> 1.Un fiammifero Minerva </h3>
+        <hr>
+        <br>
+        <h3 id="11">2.Conversazione a Lisbona</h3>
+        <hr>
+        <br>
+        <h3 id="12">3.Finchè durano i fiammiferi</h3>
+        <hr>
+        <br>
+        <h3 id="13">Due lettere dal carcere di Adriano Sofri</h3>
+        <hr>
+        <br>
+        <h3 id="14">Epilogo provvisorio</h3>
+        <hr>
+       <br>
+       <h3 id="15">Nota editoriale</h3>
+       <hr>
+       <br>
+      </div>
+   </div>
+  </div>
+
+<script>
+ function highlightKeyword(obj) {
+        [...document.getElementsByClassName(obj.className)].forEach( x => {
+        x.style.backgroundColor = 'rgb(255, 165, 0)';
+});
+} 
+</script>
+<!--bootstrap js e script-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+<!-- Footer -->
+<footer class="container-fluid bg-dark text-center text-white">
+
+  <!-- Grid container -->
+  <div class="container-fluid">
+  </br>
+    <div>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+  </br>
+  <!-- /Grid container -->
+
+     <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Iscriviti alla nostra newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+            </div>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+        </div>
+
+ <!-- Copyright -->
+  <div> <p> <a class="text-white" href="link">2022 Copyright</a></br>
+    Esercizio realizzato da Chiara Pizzulli e Chiara Taiariol durante il corso di Digital Humanities e Patrimonio Culturale, Università di Bologna. </p>
+  </div>
+  <!-- /Copyright -->
+</footer>
+</body>
+</html>
